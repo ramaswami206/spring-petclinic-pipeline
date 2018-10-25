@@ -3,7 +3,7 @@ pipeline {
     agent { label 'sensen-build-slave-01' }
     // global env variables
     environment {
-        EMAIL_RECIPIENTS = 'akhilreddyjirra@gmail.com'
+        EMAIL_RECIPIENTS = 'ramaswami206@gmail.com'
     }
     stages {
 
