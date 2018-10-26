@@ -15,7 +15,7 @@ pipeline {
                     // ** NOTE: This 'M3' Maven tool must be configured
                     // **       in the global configuration.
                     echo 'Pulling...' + env.BRANCH_NAME
-                    def mvnHome = tool 'Maven'
+                    def mvnHome = tool 'MAVEN_3.5.4'
                         def targetVersion = getDevVersion()
                         print 'target build version...'
                         print targetVersion
